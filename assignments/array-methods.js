@@ -113,3 +113,8 @@ console.log(averageDonation);
 
 
 // Problem 3
+//Find how many runners work at or are students at educational institutions.
+let uniPeople = [];
+uniPeople = runners.filter(function findEdu (data) {
+return data.email.includes("edu")});
+console.log(uniPeople);
