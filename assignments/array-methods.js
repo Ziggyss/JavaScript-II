@@ -79,7 +79,6 @@ console.log(firstNamesAllCaps);
 let runnersLargeSizeShirt = [];
 runnersLargeSizeShirt = runners.filter(function largeOnly (data) {
 return data.shirt_size.includes("L")});
-
 console.log(runnersLargeSizeShirt);
 
 
