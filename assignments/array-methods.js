@@ -103,5 +103,13 @@ VIPs = runners.filter(function generous (data){
 
 
 // Problem 2
+//Find the average donation
+
+ticketPriceTotal = runners.reduce(function (acc, placeholder) {
+return acc + placeholder.donation;
+}, 0);
+let averageDonation = ticketPriceTotal / runners.length;
+console.log(averageDonation);
+
 
 // Problem 3
