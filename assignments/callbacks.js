@@ -46,7 +46,7 @@ function getLength(arr, cb) {
 
 function last(arr, cb) {
   // last passes the last item of the array into the callback.
-  return cb(arr[arr.length]);
+  return cb(arr[arr.length - 1]);
 }
 
 function sumNums(x, y, cb) {
@@ -62,13 +62,13 @@ function multiplyNums(x, y, cb) {
 function contains(item, list, cb) {
   // contains checks if an item is present inside of the given array/list.
   // Pass true to the callback if it is, otherwise pass false.
-   return cb(item, list) {
-     if (list.includes(item)){
+    
+    if (list.includes(item)){
     return true;
   }
   return false;
  }
-};
+;
 
 /* STRETCH PROBLEM */
 
