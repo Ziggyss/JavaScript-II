@@ -80,7 +80,7 @@ let runnersLargeSizeShirt = [];
 runnersLargeSizeShirt = runners.filter(function largeOnly (data) {
 return data.shirt_size.includes("L")});
 console.log(runnersLargeSizeShirt);
-//I just realised I may have done the above question wrong. I thought that 'large sized shirts' meant any shirt that was size L and above.
+//I just realised I may have done the above question wrong. I thought that 'large sized shirts' meant any shirt that was size L and above. To fix this, I would return shirt size that === "L".
 
 
 // ==== Challenge 4: Use .reduce() ====
