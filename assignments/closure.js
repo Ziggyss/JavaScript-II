@@ -20,12 +20,13 @@ function simpleGreeting() {
 // ==== Challenge 2: Implement a "counter maker" function ====
 const counterMaker = () => {
   let count = 0;
-
+  let limit = 5;
+ 
   function counter() {
     return count = count + 1; 
-  }
-  
-  return counter;
+
+    }
+    return counter;
   };
   
   // IMPLEMENTATION OF counterMaker:
@@ -44,6 +45,7 @@ const myCounter = counterMaker();
 // ==== Challenge 3: Make `counterMaker` more sophisticated ====
 // It should have a `limit` parameter. Any counters we make with `counterMaker`
 // will refuse to go over the limit, and start back at 1.
+
 
 
 // ==== Challenge 4: Create a counter function with an object that can increment and decrement ====
